@@ -51,7 +51,7 @@ Driver.WriteReadOnlyMemory<DWORD>(pID, writeng, a, sizeof(ULONG));
   
 ## Warning
 
-Do not continuously try to write while using Write CR0 Memory. If you cannot lower the IRQL level, you may get a blue screen error.
+Do not continuously try to write while using Write CR0 Memory. If you cannot lower the IRQL level, you may get a blue screen.
 ## License
 
 [GNU](https://choosealicense.com/licenses/gpl-3.0/)
