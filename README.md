@@ -1,5 +1,5 @@
 # KM-UM-Communication
-In user mode, it allows you to read and write through the kernel. It is actually a classic ioctl driver, but the difference is that it allows you to make changes in the cr0 section.
+In user mode, it allows you to read and write through the kernel. It is actually a classic ioctl driver, but the difference is that it allows you to make changes in the cr0 section. It has been tested up to Windows 21H1. If you want to add 22H2, you have to add it yourself.
 
 
 ## To Run on Your Computer
