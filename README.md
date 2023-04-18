@@ -31,7 +31,7 @@ In user mode, it allows you to read and write through the kernel. It is actually
 ## Usage/Examples
 ### Read Memory
 ```c++
-DWORD gettargetbase = Driver.ReadVirtualMemory<DWORD>(pid, ModuleBase + Pointerone, sizeof(DWORD));
+DWORD x = Driver.ReadVirtualMemory<DWORD>(pid, ModuleBase + Pointerone, sizeof(DWORD));
 ```
 
 ### Write Memory
