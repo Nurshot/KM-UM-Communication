@@ -45,7 +45,7 @@ Driver.WriteVirtualMemory<DWORD>(pid, writeng, a, sizeof(ULONG));
 ```c++
 int a=0;
 DWORD writeng = ModuleBase + Pointerone;
-Driver.WriteReadOnlyCrMemory<DWORD>(pID, writeng, a, sizeof(ULONG));
+Driver.WriteReadOnlyCrMemory<DWORD>(pid, writeng, a, sizeof(ULONG));
 ```
 
   
